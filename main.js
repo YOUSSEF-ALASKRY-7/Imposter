@@ -69,7 +69,10 @@ window.GALLERY_DATA = {
     label: "Reels Creation",
     items: [
       { type: "video", src: "./assets/Reels Creation/video_2026-07-01_12-57-08.mp4", title: "Scroll-Stopping Reel 1" },
-      { type: "video", src: "./assets/Reels Creation/video_2026-07-01_12-57-27.mp4", title: "Scroll-Stopping Reel 2" }
+      { type: "video", src: "./assets/Reels Creation/video_2026-07-01_12-57-27.mp4", title: "Scroll-Stopping Reel 2" },
+      { type: "video", src: "./assets/Reels Creation/video_2026-07-01_19-35-18.mp4", title: "Scroll-Stopping Reel 3" },
+      { type: "video", src: "./assets/Reels Creation/video_2026-07-01_19-35-47.mp4", title: "Scroll-Stopping Reel 4" },
+      { type: "video", src: "./assets/Reels Creation/video_2026-07-01_19-35-53.mp4", title: "Scroll-Stopping Reel 5" }
     ]
   },
   design: {
@@ -93,8 +96,8 @@ window.GALLERY_DATA = {
   notes: {
     label: "Notes Writing",
     items: [
-      { type: "image", src: "./assets/photo_2026-06-30_15-44-32.jpg", title: "Notes Formulation & Scripting Mockup 1" },
-      { type: "image", src: "./assets/photo_2026-06-30_15-45-49.jpg", title: "Notes Formulation & Scripting Mockup 2" }
+      { type: "image", src: "./assets/كتابة المذكرات/WhatsApp Image 2026-07-01 at 7.27.48 PM.jpeg", title: "Notes Formulation & Scripting Mockup 1" },
+      { type: "image", src: "./assets/كتابة المذكرات/WhatsApp Image 2026-07-01 at 7.27.52 PM.jpeg", title: "Notes Formulation & Scripting Mockup 2" }
     ]
   },
   management: {
