@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imposter // Premium Ad Campaigns Agency</title>
+  <meta name="description" content="Imposter is a next-generation advertising agency building high-contrast digital campaigns. Experience dark glassmorphic design and premium aesthetics.">
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Load Space Grotesk (geometric sans) and DM Serif Display (elegant serif) -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Elements -->
+  <div class="bg-glow" id="bgGlow"></div>
+  <div class="orbit-ring" id="orbitRing"></div>
+
+  <!-- Header Navigation (Premium Agency Feel) -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="./assets/Logo.jpeg" alt="Imposter Advertising Agency" class="logo-img">
+    </div>
+    <nav class="nav-links">
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#agency" class="nav-link">Agency</a>
+      <a href="#contact" class="nav-link btn-contact">Get in Touch</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="hero-section" id="heroSection">
+    
+    <!-- Headline Wrapper -->
+    <div class="headline-container">
+      
+      <!-- Floating Tags -->
+      <div class="tag-pill tag-branding" id="tagBranding">BRANDING</div>
+      <div class="tag-pill tag-social" id="tagSocial">SOCIAL MEDIA</div>
+      <div class="tag-pill tag-ads" id="tagAds">ADS</div>
+      <div class="tag-pill tag-creative" id="tagCreative">CREATIVE</div>
+      
+      <!-- Interlocking Headline -->
+      <h1 class="headline">
+        <span class="headline-serif animate-up" id="headlineLine1">Imposter</span>
+        <span class="headline-sans animate-up" id="headlineLine2">Ad Campaigns</span>
+      </h1>
+      
+    </div>
+
+    <!-- Center Showcase Folder Card -->
+    <div class="folder-wrapper" id="folderWrapper">
+      
+      <!-- Mockup Cards Peeking Out Behind -->
+      <div class="mockup-cards">
+        <img src="./assets/photo_2026-06-30_02-43-04.jpg" class="mockup-card card-1" alt="Branding Campaign Orange" id="mockupCard1" onerror="this.onerror=null;this.removeAttribute('src');this.classList.add('img-fallback','fb-orange');">
+        <img src="./assets/photo_2026-06-30_15-44-32.jpg" class="mockup-card card-2" alt="Social Campaign Blue" id="mockupCard2" onerror="this.onerror=null;this.removeAttribute('src');this.classList.add('img-fallback','fb-blue');">
+        <img src="./assets/photo_2026-06-30_15-44-41.jpg" class="mockup-card card-3" alt="Ads Campaign Pink" id="mockupCard3" onerror="this.onerror=null;this.removeAttribute('src');this.classList.add('img-fallback','fb-pink');">
+        <img src="./assets/photo_2026-06-30_15-45-49.jpg" class="mockup-card card-4" alt="Creative Campaign Purple" id="mockupCard4" onerror="this.onerror=null;this.removeAttribute('src');this.classList.add('img-fallback','fb-purple');">
+      </div>
+      
+      <!-- Glassmorphic Folder -->
+      <div class="folder-card" id="folderCard">
+        <!-- Exact clipped background with backdrop filter -->
+        <div class="folder-glass"></div>
+        
+        <!-- SVG Border Overlay -->
+        <svg class="folder-border" viewBox="0 0 600 400" preserveAspectRatio="none">
+          <path d="M 1,40 L 1,12 A 10,10 0 0 1 11,2 L 140,2 A 10,10 0 0 1 150,6 L 180,36 A 10,10 0 0 0 188,40 L 589,40 A 10,10 0 0 1 599,50 L 599,389 A 10,10 0 0 1 589,399 L 11,399 A 10,10 0 0 1 1,389 Z" fill="none" stroke="url(#folder-border-grad)" stroke-width="1.5" />
+          <defs>
+            <linearGradient id="folder-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="rgba(168, 230, 0, 0.55)" />
+              <stop offset="50%" stop-color="rgba(168, 230, 0, 0.2)" />
+              <stop offset="100%" stop-color="rgba(26, 61, 15, 0.4)" />
+            </linearGradient>
+          </defs>
+        </svg>
+        
+        <!-- Folder Content -->
+        <div class="folder-content">
+          <!-- Folder Header / Tab Bar -->
+          <div class="folder-header">
+            <div class="folder-header-left">
+              <div class="play-btn-circle" id="playBtn">
+                <svg viewBox="0 0 24 24" class="play-icon-svg">
+                  <path d="M8 5v14l11-7z" fill="currentColor"/>
+                </svg>
+              </div>
+              <span class="folder-title">Imposter.campaign_assets</span>
+            </div>
+            <div class="folder-header-right">
+              <span class="toolbar-dot"></span>
+              <span class="toolbar-dot"></span>
+              <span class="toolbar-dot"></span>
+              <span class="toolbar-dot"></span>
+            </div>
+          </div>
+          
+          <!-- Folder Body Content -->
+          <div class="folder-body-content">
+            <div class="folder-inner-left">
+              <div class="folder-badge">AGENCY CAPABILITIES</div>
+              <h2 class="folder-heading">High-Contrast Ad Strategies</h2>
+              <p class="folder-text">We craft campaigns that cut through the digital noise. Bold designs, sleek glassmorphic aesthetics, and AI-driven precision.</p>
+            </div>
+            <div class="folder-inner-right">
+              <div class="folder-showcase-img-container">
+                <img src="./assets/mockup_orange.png" class="folder-showcase-img" alt="Showcase Preview" onerror="this.onerror=null;this.removeAttribute('src');this.classList.add('img-fallback','fb-orange');">
+              </div>
+              <div class="folder-cta-btn" id="folderCta">
+                <span>View Reel</span>
+                <svg viewBox="0 0 24 24" class="arrow-svg"><path d="M5 12h14M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Tools Drawer Section -->
+  <section class="tools-section" id="tools">
+    <h2 class="tools-title">All your tools<br>in <span class="text-lime">one place.</span></h2>
+
+    <div class="drawer-wrapper">
+      <div class="drawer-glow"></div>
+      <div class="drawer-box">
+        <div class="drawer-shelf">
+          <div class="badge-grid">
+            <div class="tool-badge wb" style="--bc:#001E36;--fc:#31A8FF;" title="Photoshop">Ps</div>
+            <div class="tool-badge wb" style="--bc:#330000;--fc:#FF9A00;" title="Illustrator">Ai</div>
+            <div class="tool-badge wb gradient-badge" style="--g1:#FF4DA6;--g2:#8A4DFF;--g3:#3DA9FF;" title="Creative Cloud">Cc</div>
+            <div class="tool-badge wb" style="--bc:#1a002b;--fc:#9999FF;" title="Audition">Au</div>
+            <div class="tool-badge wb" style="--bc:#001E36;--fc:#31A8FF;" title="Lightroom">Lr</div>
+            <div class="tool-badge wb" style="--bc:#330011;--fc:#FF3366;" title="InDesign">Id</div>
+
+            <div class="tool-badge wb" style="--bc:#330000;--fc:#FF0000;" title="Acrobat">Ad</div>
+            <div class="tool-badge wb" style="--bc:#001E36;--fc:#9999FF;" title="Premiere Pro">Pr</div>
+            <div class="tool-badge wb" style="--bc:#1a0011;--fc:#FF61F6;" title="Xd">Xd</div>
+            <div class="tool-badge wb" style="--bc:#0a001a;--fc:#9999FF;" title="After Effects">Ae</div>
+            <div class="tool-badge" title="Figma"><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma"></div>
+            <div class="tool-badge canva-badge" title="Canva"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Canva_logo.svg" alt="Canva" class="canva-img"></div>
+
+            <!-- Video Editing & Motion Software -->
+            <div class="tool-badge wb" style="--bc:#000000;--fc:#00F2FF;" title="CapCut">Cp</div>
+            <div class="tool-badge wb" style="--bc:#111A24;--fc:#E65C00;" title="DaVinci Resolve">Dr</div>
+            <div class="tool-badge wb" style="--bc:#1e1e1e;--fc:#FF8A00;" title="Final Cut Pro">Fc</div>
+            <div class="tool-badge wb" style="--bc:#001e36;--fc:#00BFFF;" title="Vegas Pro">Vg</div>
+            <div class="tool-badge wb" style="--bc:#001a1a;--fc:#00F0FF;" title="Filmora">Fi</div>
+            <div class="tool-badge wb" style="--bc:#0f1d00;--fc:#A3FF00;" title="Adobe Media Encoder">Me</div>
+          </div>
+        </div>
+        <div class="drawer-front">
+          <div class="drawer-handle"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="services-header">
+      <span class="works-eyebrow">What We Do</span>
+      <h2 class="services-title">Our Services</h2>
+    </div>
+
+    <div class="services-grid">
+      <a class="service-card" href="javascript:void(0)" onclick="openGallery('posters')" role="button" aria-label="Open Posters Gallery">
+        <span class="service-num">01</span>
+        <h3>Posters</h3>
+        <p>Eye-catching poster design for campaigns, events, and promotions.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="javascript:void(0)" onclick="openGallery('video')" role="button" aria-label="Open Video Editing Gallery">
+        <span class="service-num">02</span>
+        <h3>Video Editing</h3>
+        <p>Professional editing that keeps every video sharp, fast, and on-brand.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="javascript:void(0)" onclick="openGallery('content')" role="button" aria-label="Open Content Creation Gallery">
+        <span class="service-num">03</span>
+        <h3>Content Creation</h3>
+        <p>Strategy-driven content built around what your audience actually wants.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="javascript:void(0)" onclick="openGallery('reels')" role="button" aria-label="Open Reels Creation Gallery">
+        <span class="service-num">04</span>
+        <h3>Reels Creation</h3>
+        <p>Scroll-stopping reels designed to grow reach and engagement fast.</p>
+        <span class="service-arrow">→</span>
+      </a>
+
+      <a class="service-card" dir="rtl" href="javascript:void(0)" onclick="openGallery('notes')" role="button" aria-label="افتح معرض كتابة المذكرات">
+        <span class="service-num">05</span>
+        <h3>كتابة المذكرات</h3>
+        <p>فريق متكامل لكتابة المذكرات الدراسية بجودة عالية ومحتوى مرتب.</p>
+        <span class="service-arrow">←</span>
+      </a>
+      <a class="service-card" dir="rtl" href="javascript:void(0)" onclick="openGallery('design')" role="button" aria-label="افتح معرض تصميم وتنسيق المذكرات والامتحانات">
+        <span class="service-num">06</span>
+        <h3>تصميم وتنسيق المذكرات والامتحانات</h3>
+        <p>تصميم احترافي ومنظم للمذكرات والامتحانات يسهل المذاكرة والمراجعة.</p>
+        <span class="service-arrow">←</span>
+      </a>
+      <a class="service-card" dir="rtl" href="javascript:void(0)" onclick="openGallery('management')" role="button" aria-label="افتح معرض إدارة الصفحات والرد على الاستفسارات">
+        <span class="service-num">07</span>
+        <h3>إدارة الصفحات والرد على الاستفسارات</h3>
+        <p>إدارة كاملة لصفحاتك ومتابعة يومية للرد على استفسارات المتابعين.</p>
+        <span class="service-arrow">←</span>
+      </a>
+      <a class="service-card" dir="rtl" href="javascript:void(0)" onclick="openGallery('marketing')" role="button" aria-label="افتح معرض خطة تسويقية تستهدف الطلاب">
+        <span class="service-num">08</span>
+        <h3>خطة تسويقية تستهدف الطلاب</h3>
+        <p>أفكار كرييتف مصممة خصيصًا لاستهداف الطلاب، سواء ننفذها لحضرتك أو تنفذها بنفسك.</p>
+        <span class="service-arrow">←</span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Contact / Closing Section -->
+  <section class="contact-section" id="contact">
+    <div class="orbit-ring-sm"></div>
+    <h2 class="contact-title">Let's make something<br><span class="text-lime">unforgettable.</span></h2>
+
+    <div class="contact-socials">
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Behance</a>
+    </div>
+  </section>
+
+  <!-- Footer Strip -->
+  <footer class="footer-strip" id="footerStrip">
+    <div class="footer-left"></div>
+    <div class="footer-center">
+      <div class="color-swatches" id="swatchContainer">
+        <div class="swatch swatch-black active" data-color="#0A0A0A" title="Black"></div>
+        <div class="swatch swatch-orange" data-color="#FF8A3D" title="Orange"></div>
+        <div class="swatch swatch-lime" data-color="#A8E600" title="Lime Green"></div>
+        <div class="swatch swatch-white" data-color="#F5F2EA" title="White"></div>
+      </div>
+    </div>
+    <div class="footer-right"></div>
+  </footer>
+
+  <!-- Folder Gallery Modal -->
+  <div id="folderGalleryModal" class="folder-gal-modal" role="dialog" aria-modal="true" aria-labelledby="folderGalTitle">
+    <div class="folder-gal-backdrop" id="folderGalBackdrop"></div>
+    
+    <div class="folder-gal-shell">
+      <!-- Folder-style Modal Header -->
+      <div class="folder-gal-header">
+        <div class="folder-gal-header-left">
+          <div class="folder-gal-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path fill="currentColor" d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/>
+            </svg>
+          </div>
+          <h2 class="folder-gal-title" id="folderGalTitle">Folder Gallery</h2>
+        </div>
+        <div class="folder-gal-header-right">
+          <!-- View Toggles -->
+          <div class="folder-gal-toggles">
+            <button class="folder-gal-toggle-btn active" id="folderGalBtnArc" title="Arc View">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+              </svg>
+              <span>Arc</span>
+            </button>
+            <button class="folder-gal-toggle-btn" id="folderGalBtnGrid" title="Grid View">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M4 11h5V5H4v6zm0 8h5v-6H4v6zm7 0h5v-6h-5v6zm0-14v6h5V5h-5z"/>
+              </svg>
+              <span>Grid</span>
+            </button>
+          </div>
+          <!-- Close Button -->
+          <button class="folder-gal-close-btn" id="folderGalClose" aria-label="Close modal">✕</button>
+        </div>
+      </div>
+      
+      <!-- Content Container -->
+      <div class="folder-gal-content">
+        <!-- ARC VIEW -->
+        <div class="folder-gal-arc-container" id="folderGalArcContainer">
+          <button class="folder-gal-nav-btn prev" id="folderGalPrev" aria-label="Previous image">‹</button>
+          <div class="folder-gal-arc-stage">
+            <div class="folder-gal-arc-track" id="folderGalArcTrack">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+          <button class="folder-gal-nav-btn next" id="folderGalNext" aria-label="Next image">›</button>
+          <p class="folder-gal-counter" id="folderGalCounter"></p>
+        </div>
+        
+        <!-- GRID VIEW -->
+        <div class="folder-gal-grid-container hidden" id="folderGalGridContainer">
+          <div class="folder-gal-grid" id="folderGalGrid">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Overlay -->
+  <div id="imageLightbox" class="lightbox-overlay" role="dialog" aria-modal="true" aria-label="Image Zoom View">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close viewer">✕</button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous media">‹</button>
+    <div class="lightbox-content" id="lightboxContent">
+      <!-- Image or Video tag will be loaded here dynamically -->
+    </div>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Next media">›</button>
+    <div class="lightbox-caption" id="lightboxCaption">Caption</div>
+  </div>
+
+  <!-- JS Logic -->
+  <script src="./main.js"></script>
+</body>
+</html>
